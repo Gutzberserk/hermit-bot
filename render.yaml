@@ -8,20 +8,20 @@ services:
     plan: free
     autoDeploy: true
     envVars:
-      - key: RENDER_NAME
+      - key: RANDER_NAME
         sync: false
         required: true
       - key: RENDER_API
-        sync: false
+        sync: rnd_NSeNQugmsksjakXIsy3yIOHnK8y7
         required: true
       - key: SESSION_ID
-        sync: false
+        sync : HP_2024_DEC_20_APSWUR
         required: true
       - key: DATABASE_URL
         sync: false
         required: true
       - key: PREFIX
-        sync: false
+        sync: !
       - key: SUDO
         sync: false
       - key: MODE
@@ -33,7 +33,7 @@ services:
       - key: READ_MSG
         value: "false"
       - key: ALWAYS_ONLINE
-        value: "false"
+        value: "true"
       - key: START_MSG
         value: "true"
       - key: PORT
